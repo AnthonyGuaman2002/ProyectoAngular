@@ -1,0 +1,47 @@
+nav{
+    background: #000000;
+}
+
+a{
+    font-size: 12px;
+    font-family: europa, sans-serif;
+    color: rgba(255,255,255,.7);
+    
+}
+nav li{
+    color: #000000;
+}
+nav li i{
+    font-size: 20px;
+    font-family: europa, sans-serif;
+    vertical-align: baseline;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: none; 
+    color: white;
+  }
+
+  .dropdown-menu{
+    border-radius: 0;
+    margin-top: 12px;
+  }
+
+.dropdown-menu .dropdown-item{
+    color: #9E9E9E;
+    padding: 15px 10px 10px 30px;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: #212121;
+}
+
+.dropdown-divider{
+    width: 75%;
+    margin-left: 15px;
+}
+.divider-vertical {
+    content: "";
+    border-left: 1px solid #ccc; /* Establece el estilo de línea vertical y su color */
+    height:45px; /* Ajusta la altura de la línea según sea necesario */
+    padding: 5px;
+  }
